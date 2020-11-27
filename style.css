@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+}
+#app {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+}
+#app-content {
+	width: 55%;
+	border-right: 3px solid grey;
+	height: 100vh;
+	background: #fafafa;
+}
+#sidebar {
+	width: 30%;
+	padding: 5px;
+	overflow-y: scroll;
+}
+#sidebar-list {
+	width: 15%;
+	padding: 5px;
+}
+.controls-sidebar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.snackbar-attach-content {
+	position: absolute;
+	top: 0;
+	left: calc(50% - 200px);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 400px;
+	padding: 10px;
+	color: #fff;
+	background: rgb(12, 87, 212);
+}
+.btn-attach {
+	background-color: transparent;
+	border: none;
+	display: none;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+}
+.add-el-block {
+	display: none;
+}
+.arr {
+	color: #283593;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.btn_text {
+	
+}
